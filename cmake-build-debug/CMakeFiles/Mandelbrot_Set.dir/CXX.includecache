@@ -1,0 +1,56 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Barry Rutherford/Desktop/Mandelbrot Set/grifcomplex.h
+iostream
+-
+vector
+-
+cmath
+-
+string
+-
+
+C:/Users/Barry Rutherford/Desktop/Mandelbrot Set/mandelbrot.h
+iostream
+-
+vector
+-
+cmath
+-
+string
+-
+iomanip
+-
+grifcomplex.h
+C:/Users/Barry Rutherford/Desktop/Mandelbrot Set/grifcomplex.h
+
+C:/Users/Barry Rutherford/Desktop/Mandelbrot Set/mandelbrotgrid.cpp
+mandelbrotgrid.h
+C:/Users/Barry Rutherford/Desktop/Mandelbrot Set/mandelbrotgrid.h
+
+C:/Users/Barry Rutherford/Desktop/Mandelbrot Set/mandelbrotgrid.h
+iostream
+-
+vector
+-
+cmath
+-
+string
+-
+map
+-
+set
+-
+fstream
+-
+grifcomplex.h
+C:/Users/Barry Rutherford/Desktop/Mandelbrot Set/grifcomplex.h
+mandelbrot.h
+C:/Users/Barry Rutherford/Desktop/Mandelbrot Set/mandelbrot.h
+
