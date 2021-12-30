@@ -82,8 +82,8 @@ void mandelbrotGrid::writeToPPM() {
 }
 
 mandelbrotGrid::mandelbrotGrid() {
-    _resolution.first = 1800;
-    _resolution.second = 1200;
+    _resolution.first = 900;
+    _resolution.second = 600;
     resolutionToMandelbrotGrid();
     writeToPPM();
 }
